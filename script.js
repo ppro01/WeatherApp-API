@@ -1,4 +1,4 @@
-const APIKey = "git";
+const APIKey = "03ee15bcaa69fad3b353c03c2d55cd6f";
 const searchbar = document.querySelector("#searchbar");
 const searchbutton = document.querySelector(".searchbarbtn");
 const InfoImg = document.querySelector(".InfoImg");
