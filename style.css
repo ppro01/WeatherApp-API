@@ -7,7 +7,12 @@
   font-family: "Inter", sans-serif;
 }
 body {
-  background-color: rgb(19, 41, 61);
+  background: rgb(93, 93, 214);
+  background: linear-gradient(
+    180deg,
+    rgba(93, 93, 214, 1) 0%,
+    rgba(19, 41, 61, 1) 100%
+  );
 }
 .ContentWrapper {
   width: 100%;
@@ -24,7 +29,6 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: rgb(232, 241, 242);
   border-radius: 10px;
 }
 .Search {
@@ -49,13 +53,19 @@ body {
   width: 10%;
   height: 2rem;
   border: none;
-  background-color: rgb(156, 162, 162);
+  background: rgb(200, 207, 208);
+  background: linear-gradient(
+    180deg,
+    rgba(200, 207, 208, 1) 0%,
+    rgba(156, 162, 162, 1) 100%
+  );
   border-radius: 0 5px 5px 0;
+  transition: all inherit 1s ease-in;
 }
 
 .Search > button:hover {
   cursor: pointer;
-  background-color: rgb(99, 102, 102);
+  background-color: rgb(156, 162, 162, 1) 100%;
 }
 
 .InfoMain {
@@ -65,7 +75,12 @@ body {
   display: flex;
 }
 .InfoImg {
-  background-color: rgb(176, 186, 187);
+  background: rgb(176, 186, 187);
+  background: linear-gradient(
+    0deg,
+    rgba(176, 186, 187, 1) 0%,
+    rgba(92, 140, 185, 1) 100%
+  );
   display: flex;
   justify-content: center;
   align-items: left;
@@ -78,7 +93,12 @@ body {
   padding: 15px;
 }
 .InfoText {
-  background-color: rgb(68, 137, 202);
+  background: rgb(72, 72, 164);
+  background: linear-gradient(
+    0deg,
+    rgb(80, 80, 160) 0%,
+    rgba(68, 137, 202, 1) 100%
+  );
   display: flex;
   justify-content: center;
   align-items: left;
